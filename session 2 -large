@@ -1,0 +1,410 @@
+session 2 -large
+
+--layer 0--
+Epoch: 98 |train_ser_loss: 0.7946 |train_accuracy: 0.6842 |test_ser_loss: 0.8982 |test_accuracy: 0.6239
+test: 
+ [[ 96  18  23   0]
+ [ 26 169 116  14]
+ [ 12  66 253  31]
+ [  4   7  67 119]]
+             precision    recall  f1-score   support
+
+          0       0.70      0.70      0.70       137
+          1       0.65      0.52      0.58       325
+          2       0.55      0.70      0.62       362
+          3       0.73      0.60      0.66       197
+
+avg / total       0.64      0.62      0.62      1021
+
+
+--layer 1--
+Epoch: 55 |train_ser_loss: 0.9070 |train_accuracy: 0.6918 |test_ser_loss: 0.8361 |test_accuracy: 0.6415
+test: 
+ [[ 97  25  15   0]
+ [ 32 196  81  16]
+ [  6  97 222  37]
+ [  5   8  44 140]]
+             precision    recall  f1-score   support
+
+          0       0.69      0.71      0.70       137
+          1       0.60      0.60      0.60       325
+          2       0.61      0.61      0.61       362
+          3       0.73      0.71      0.72       197
+
+avg / total       0.64      0.64      0.64      1021
+
+--layer 2--
+Epoch: 97 |train_ser_loss: 0.7387 |train_accuracy: 0.7691 |test_ser_loss: 0.8688 |test_accuracy: 0.6592
+test: 
+ [[ 98  27  12   0]
+ [ 19 246  47  13]
+ [  9 130 193  30]
+ [  4  21  36 136]]
+             precision    recall  f1-score   support
+
+          0       0.75      0.72      0.73       137
+          1       0.58      0.76      0.66       325
+          2       0.67      0.53      0.59       362
+          3       0.76      0.69      0.72       197
+
+avg / total       0.67      0.66      0.66      1021
+
+--layer 3--
+Epoch: 43 |train_ser_loss: 0.8306 |train_accuracy: 0.6835 |test_ser_loss: 0.8250 |test_accuracy: 0.6562
+test: 
+ [[104  27   5   1]
+ [ 28 187  93  17]
+ [  9  77 236  40]
+ [  4   6  44 143]]
+             precision    recall  f1-score   support
+
+          0       0.72      0.76      0.74       137
+          1       0.63      0.58      0.60       325
+          2       0.62      0.65      0.64       362
+          3       0.71      0.73      0.72       197
+
+avg / total       0.66      0.66      0.66      1021
+
+--layer 4--
+Epoch: 38 |train_ser_loss: 0.7043 |train_accuracy: 0.6978 |test_ser_loss: 0.8112 |test_accuracy: 0.6699
+test: 
+ [[ 98  32   7   0]
+ [ 23 222  61  19]
+ [ 10  89 231  32]
+ [  0  13  51 133]]
+             precision    recall  f1-score   support
+
+          0       0.75      0.72      0.73       137
+          1       0.62      0.68      0.65       325
+          2       0.66      0.64      0.65       362
+          3       0.72      0.68      0.70       197
+
+avg / total       0.67      0.67      0.67      1021
+
+
+--layer 5--
+Epoch: 94 |train_ser_loss: 0.6342 |train_accuracy: 0.7948 |test_ser_loss: 0.8553 |test_accuracy: 0.6572
+test: 
+ [[ 93  37   6   1]
+ [ 14 259  38  14]
+ [  6 137 185  34]
+ [  1  32  30 134]]
+             precision    recall  f1-score   support
+
+          0       0.82      0.68      0.74       137
+          1       0.56      0.80      0.66       325
+          2       0.71      0.51      0.60       362
+          3       0.73      0.68      0.71       197
+
+avg / total       0.68      0.66      0.66      1021
+
+
+--layer 6--
+Epoch: 56 |train_ser_loss: 0.6861 |train_accuracy: 0.7544 |test_ser_loss: 0.8392 |test_accuracy: 0.6523
+test: 
+ [[101  27   8   1]
+ [ 10 265  33  17]
+ [  6 155 170  31]
+ [  1  27  39 130]]
+             precision    recall  f1-score   support
+
+          0       0.86      0.74      0.79       137
+          1       0.56      0.82      0.66       325
+          2       0.68      0.47      0.56       362
+          3       0.73      0.66      0.69       197
+
+avg / total       0.67      0.65      0.65      1021
+
+
+--layer 7--
+Epoch: 31 |train_ser_loss: 0.7724 |train_accuracy: 0.7155 |test_ser_loss: 0.8399 |test_accuracy: 0.6386
+test: 
+ [[102  24  10   1]
+ [ 26 207  66  26]
+ [  9 115 201  37]
+ [  0  21  34 142]]
+             precision    recall  f1-score   support
+
+          0       0.74      0.74      0.74       137
+          1       0.56      0.64      0.60       325
+          2       0.65      0.56      0.60       362
+          3       0.69      0.72      0.70       197
+
+avg / total       0.64      0.64      0.64      1021
+
+--layer 8--
+Epoch: 85 |train_ser_loss: 0.5615 |train_accuracy: 0.8076 |test_ser_loss: 0.9052 |test_accuracy: 0.6533
+test: 
+ [[107  23   5   2]
+ [ 20 250  38  17]
+ [ 15 135 168  44]
+ [  0  26  29 142]]
+             precision    recall  f1-score   support
+
+          0       0.75      0.78      0.77       137
+          1       0.58      0.77      0.66       325
+          2       0.70      0.46      0.56       362
+          3       0.69      0.72      0.71       197
+
+avg / total       0.67      0.65      0.65      1021
+
+--layer 9--
+Epoch: 43 |train_ser_loss: 0.6864 |train_accuracy: 0.7488 |test_ser_loss: 0.8317 |test_accuracy: 0.6631
+test: 
+ [[101  32   4   0]
+ [ 31 238  36  20]
+ [ 16 113 195  38]
+ [  1  25  28 143]]
+             precision    recall  f1-score   support
+
+          0       0.68      0.74      0.71       137
+          1       0.58      0.73      0.65       325
+          2       0.74      0.54      0.62       362
+          3       0.71      0.73      0.72       197
+
+avg / total       0.68      0.66      0.66      1021
+
+
+--layer 10--
+Epoch: 96 |train_ser_loss: 0.4613 |train_accuracy: 0.8458 |test_ser_loss: 0.9642 |test_accuracy: 0.6738
+test: 
+ [[103  29   4   1]
+ [ 28 242  38  17]
+ [ 18 112 199  33]
+ [  2  25  26 144]]
+             precision    recall  f1-score   support
+
+          0       0.68      0.75      0.72       137
+          1       0.59      0.74      0.66       325
+          2       0.75      0.55      0.63       362
+          3       0.74      0.73      0.73       197
+
+avg / total       0.69      0.67      0.67      1021
+
+--layer 11--
+Epoch: 49 |train_ser_loss: 0.6913 |train_accuracy: 0.7658 |test_ser_loss: 0.8305 |test_accuracy: 0.6719
+test: 
+ [[110  24   2   1]
+ [ 27 237  45  16]
+ [ 25 100 204  33]
+ [  1  27  34 135]]
+             precision    recall  f1-score   support
+
+          0       0.67      0.80      0.73       137
+          1       0.61      0.73      0.66       325
+          2       0.72      0.56      0.63       362
+          3       0.73      0.69      0.71       197
+
+avg / total       0.68      0.67      0.67      1021
+
+--layer 12--
+Epoch: 44 |train_ser_loss: 0.6026 |train_accuracy: 0.7579 |test_ser_loss: 0.8228 |test_accuracy: 0.6797
+test: 
+ [[110  22   4   1]
+ [ 34 238  43  10]
+ [ 22 106 204  30]
+ [  2  27  26 142]]
+             precision    recall  f1-score   support
+
+          0       0.65      0.80      0.72       137
+          1       0.61      0.73      0.66       325
+          2       0.74      0.56      0.64       362
+          3       0.78      0.72      0.75       197
+
+avg / total       0.69      0.68      0.68      1021
+
+--layer 13--
+Epoch: 53 |train_ser_loss: 0.6095 |train_accuracy: 0.7830 |test_ser_loss: 0.8321 |test_accuracy: 0.6836
+test: 
+ [[111  16   9   1]
+ [ 33 240  38  14]
+ [ 20 108 205  29]
+ [  0  28  27 142]]
+             precision    recall  f1-score   support
+
+          0       0.68      0.81      0.74       137
+          1       0.61      0.74      0.67       325
+          2       0.73      0.57      0.64       362
+          3       0.76      0.72      0.74       197
+
+avg / total       0.69      0.68      0.68      1021
+
+--layer 14--
+Epoch: 73 |train_ser_loss: 0.3814 |train_accuracy: 0.8232 |test_ser_loss: 0.8758 |test_accuracy: 0.6846
+test: 
+ [[111  17   7   2]
+ [ 27 254  36   8]
+ [ 25 116 192  29]
+ [  1  26  28 142]]
+             precision    recall  f1-score   support
+
+          0       0.68      0.81      0.74       137
+          1       0.62      0.78      0.69       325
+          2       0.73      0.53      0.61       362
+          3       0.78      0.72      0.75       197
+
+avg / total       0.70      0.68      0.68      1021
+
+--layer 15--
+Epoch: 66 |train_ser_loss: 0.4602 |train_accuracy: 0.8038 |test_ser_loss: 0.8281 |test_accuracy: 0.6876
+test: 
+ [[109  16  10   2]
+ [ 20 256  39  10]
+ [ 20 113 203  26]
+ [  1  32  30 134]]
+             precision    recall  f1-score   support
+
+          0       0.73      0.80      0.76       137
+          1       0.61      0.79      0.69       325
+          2       0.72      0.56      0.63       362
+          3       0.78      0.68      0.73       197
+
+avg / total       0.70      0.69      0.69      1021
+
+
+--layer 16--
+Epoch: 72 |train_ser_loss: 0.4474 |train_accuracy: 0.8105 |test_ser_loss: 0.8191 |test_accuracy: 0.6866
+test: 
+ [[109  16  10   2]
+ [ 20 247  47  11]
+ [ 15 102 215  30]
+ [  2  32  33 130]]
+             precision    recall  f1-score   support
+
+          0       0.75      0.80      0.77       137
+          1       0.62      0.76      0.68       325
+          2       0.70      0.59      0.64       362
+          3       0.75      0.66      0.70       197
+
+avg / total       0.69      0.69      0.69      1021
+
+--layer 17--
+Epoch: 69 |train_ser_loss: 0.4644 |train_accuracy: 0.8064 |test_ser_loss: 0.8385 |test_accuracy: 0.6807
+test: 
+ [[109  16  10   2]
+ [ 24 252  37  12]
+ [ 23 110 202  27]
+ [  3  32  30 132]]
+             precision    recall  f1-score   support
+
+          0       0.69      0.80      0.74       137
+          1       0.61      0.78      0.69       325
+          2       0.72      0.56      0.63       362
+          3       0.76      0.67      0.71       197
+
+avg / total       0.69      0.68      0.68      1021
+
+
+--layer 18--
+Epoch: 90 |train_ser_loss: 0.4327 |train_accuracy: 0.7944 |test_ser_loss: 0.8310 |test_accuracy: 0.6856
+test: 
+ [[108  20   9   0]
+ [ 13 244  55  13]
+ [ 14 101 212  35]
+ [  2  20  39 136]]
+             precision    recall  f1-score   support
+
+          0       0.79      0.79      0.79       137
+          1       0.63      0.75      0.69       325
+          2       0.67      0.59      0.63       362
+          3       0.74      0.69      0.71       197
+
+avg / total       0.69      0.69      0.68      1021
+
+--layer 19--
+Epoch: 96 |train_ser_loss: 0.4789 |train_accuracy: 0.7662 |test_ser_loss: 0.8879 |test_accuracy: 0.6474
+test: 
+ [[104  27   6   0]
+ [ 18 238  56  13]
+ [ 15 122 195  30]
+ [  5  29  39 124]]
+             precision    recall  f1-score   support
+
+          0       0.73      0.76      0.75       137
+          1       0.57      0.73      0.64       325
+          2       0.66      0.54      0.59       362
+          3       0.74      0.63      0.68       197
+
+avg / total       0.66      0.65      0.65      1021
+
+--layer 20--
+Epoch: 93 |train_ser_loss: 0.6852 |train_accuracy: 0.7327 |test_ser_loss: 0.8880 |test_accuracy: 0.6366
+test: 
+ [[104  22  10   1]
+ [ 24 213  80   8]
+ [ 23  97 213  29]
+ [  5  25  47 120]]
+             precision    recall  f1-score   support
+
+          0       0.67      0.76      0.71       137
+          1       0.60      0.66      0.62       325
+          2       0.61      0.59      0.60       362
+          3       0.76      0.61      0.68       197
+
+avg / total       0.64      0.64      0.64      1021
+
+--layer 21--
+Epoch: 84 |train_ser_loss: 0.6511 |train_accuracy: 0.6924 |test_ser_loss: 0.9657 |test_accuracy: 0.6024
+test: 
+ [[103  27   7   0]
+ [ 25 212  78  10]
+ [ 26 115 196  25]
+ [  5  33  55 104]]
+             precision    recall  f1-score   support
+
+          0       0.65      0.75      0.70       137
+          1       0.55      0.65      0.60       325
+          2       0.58      0.54      0.56       362
+          3       0.75      0.53      0.62       197
+
+avg / total       0.61      0.60      0.60      1021
+
+
+--layer 22--
+Epoch: 99 |train_ser_loss: 0.8788 |train_accuracy: 0.6220 |test_ser_loss: 1.0991 |test_accuracy: 0.5093
+test: 
+ [[117  18   2   0]
+ [ 58 184  77   6]
+ [ 83 130 133  16]
+ [ 20  27  64  86]]
+             precision    recall  f1-score   support
+
+          0       0.42      0.85      0.56       137
+          1       0.51      0.57      0.54       325
+          2       0.48      0.37      0.42       362
+          3       0.80      0.44      0.56       197
+
+avg / total       0.54      0.51      0.50      1021
+
+--layer 23--
+Epoch: 95 |train_ser_loss: 0.8996 |train_accuracy: 0.5928 |test_ser_loss: 1.1463 |test_accuracy: 0.4740
+test: 
+ [[111  15  10   1]
+ [ 73 153  93   6]
+ [105 112 133  12]
+ [ 21  34  55  87]]
+             precision    recall  f1-score   support
+
+          0       0.36      0.81      0.50       137
+          1       0.49      0.47      0.48       325
+          2       0.46      0.37      0.41       362
+          3       0.82      0.44      0.57       197
+
+avg / total       0.52      0.47      0.47      1021
+
+
+--layer 24--
+Epoch: 92 |train_ser_loss: 0.9143 |train_accuracy: 0.5983 |test_ser_loss: 1.1673 |test_accuracy: 0.4770
+test: 
+ [[ 98  24  12   3]
+ [ 56 151 101  17]
+ [ 73 116 150  23]
+ [ 22  33  54  88]]
+             precision    recall  f1-score   support
+
+          0       0.39      0.72      0.51       137
+          1       0.47      0.46      0.47       325
+          2       0.47      0.41      0.44       362
+          3       0.67      0.45      0.54       197
+
+avg / total       0.50      0.48      0.48      1021
